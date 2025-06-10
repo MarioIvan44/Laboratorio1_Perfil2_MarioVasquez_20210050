@@ -64,6 +64,7 @@ public class Main {
             else if(respuesta == 3){
                 System.out.println("Ingrese el nombre del contacto que desea ver: ");
                 String nombre = sc.next();
+                obj.obtenerConctacto(nombre);
             }
             else if(respuesta == 4){
                 System.out.println("Ingrese el ID del contacto que desea eliminar: ");
